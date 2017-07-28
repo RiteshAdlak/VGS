@@ -1,0 +1,41 @@
+﻿Build started 28-07-2017 23:53:44.
+     1>Project "F:\data0\GIT_REPO\VGS\7-06-16\7-06-16.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\ultimate\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bill.cpp cust.cpp main.cpp maintenance.cpp oil.cpp part.cpp service.cpp ser_req.cpp ser_station.cpp string.cpp vehicle.cpp
+         vehicle.cpp
+         string.cpp
+     1>f:\data0\git_repo\vgs\7-06-16\string.cpp(5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\ultimate\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\data0\git_repo\vgs\7-06-16\string.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\ultimate\vc\include\string.h(112) : see declaration of 'strcpy'
+         ser_station.cpp
+         ser_req.cpp
+         service.cpp
+         part.cpp
+         oil.cpp
+         maintenance.cpp
+         main.cpp
+         cust.cpp
+         bill.cpp
+     1>f:\data0\git_repo\vgs\7-06-16\bill.cpp(8): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\ultimate\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>f:\data0\git_repo\vgs\7-06-16\bill.cpp(71): warning C4129: '*' : unrecognized character escape sequence
+         Generating Code...
+       Link:
+         F:\ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\data0\GIT_REPO\VGS\Debug\7-06-16.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\data0\GIT_REPO\VGS\Debug\7-06-16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\data0\GIT_REPO\VGS\Debug\7-06-16.lib" /MACHINE:X86 Debug\bill.obj
+         Debug\cust.obj
+         Debug\main.obj
+         Debug\maintenance.obj
+         Debug\oil.obj
+         Debug\part.obj
+         Debug\service.obj
+         Debug\ser_req.obj
+         Debug\ser_station.obj
+         Debug\string.obj
+         Debug\vehicle.obj
+         7-06-16.vcxproj -> F:\data0\GIT_REPO\VGS\Debug\7-06-16.exe
+     1>Done Building Project "F:\data0\GIT_REPO\VGS\7-06-16\7-06-16.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.82
